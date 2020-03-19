@@ -5,3 +5,6 @@ body {
 img.mainLogo {
     width: 25%;
 }
+.videoMedia video{
+    width: 100%;
+}
