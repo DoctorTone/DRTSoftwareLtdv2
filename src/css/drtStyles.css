@@ -13,10 +13,18 @@ ul.blankStyle {
     margin: 0;
     padding: 0;
 }
-.img-hover {
-    opacity: 1;
-    transition: 0.5s ease;
-}
 .img-overlay:hover img {
     opacity: 0.3;
+}
+.img-overlay:hover .img-text-overlay {
+    opacity: 1;
+}
+.img-text-overlay {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
