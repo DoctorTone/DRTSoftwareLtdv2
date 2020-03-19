@@ -8,3 +8,8 @@ img.mainLogo {
 .videoMedia video{
     width: 100%;
 }
+ul.blankStyle {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
