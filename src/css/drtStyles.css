@@ -13,3 +13,10 @@ ul.blankStyle {
     margin: 0;
     padding: 0;
 }
+.img-hover {
+    opacity: 1;
+    transition: 0.5s ease;
+}
+.img-overlay:hover img {
+    opacity: 0.3;
+}
