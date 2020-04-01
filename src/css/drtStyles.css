@@ -5,6 +5,9 @@ body {
 a {
     color: white;
 }
+.active a {
+    color: orange;
+}
 a:hover {
     color: orange;
 }
