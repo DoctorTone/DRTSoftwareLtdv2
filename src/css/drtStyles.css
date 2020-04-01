@@ -47,7 +47,16 @@ ul.blankStyle {
 .dropdownContent {
     display: none;
     position: absolute;
+    color: black;
+    background-color: #cdcdcd;
+    min-width: 160px;
     z-index: 1;
+}
+.dropdownContent a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
 }
 .dropdownContainer:hover .dropdownContent {
     display: block;
