@@ -58,6 +58,9 @@ ul.blankStyle {
     padding: 5px;
     display: block;
 }
+.dropdownContent a:hover {
+    color: orange;
+}
 .dropdownContainer:hover .dropdownContent {
     display: block;
 }
