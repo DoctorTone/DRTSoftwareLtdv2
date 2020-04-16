@@ -69,3 +69,18 @@ ul.blankStyle {
 .dropdownContainer:hover .dropdownContent {
     display: block;
 }
+@media (min-width: 1366px) {
+    .ml-xxl-5 {
+        margin-left: 4rem !important;
+    }
+}
+@media (min-width: 1600px) {
+    .ml-xxl-6 {
+        margin-left: 12rem !important;
+    }
+}
+@media (min-width: 1800px) {
+    .ml-xxl-6 {
+        margin-left: 18rem !important;
+    }
+}
