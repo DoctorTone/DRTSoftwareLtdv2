@@ -66,31 +66,3 @@ ul.blankStyle {
 .dropdownContainer:hover .dropdownContent {
     display: block;
 }
-@media (min-width: 1600px) {
-    .margin-right-xxl {
-        margin-right: 4rem !important;
-    }
-    .margin-left-xxl {
-        margin-left: 4rem !important;
-    }
-    .padding-right-xxl {
-        padding-right: 4rem !important;
-    }
-    .padding-left-xxl {
-        padding-left: 4rem !important;
-    }
-}
-@media (min-width: 1920px) {
-    .margin-right-xxl {
-        margin-right: 6rem !important;
-    }
-    .margin-left-xxl {
-        margin-left: 6rem !important;
-    }
-    .padding-right-xxl {
-        padding-right: 6rem !important;
-    }
-    .padding-left-xxl {
-        padding-left: 6rem !important;
-    }
-}
