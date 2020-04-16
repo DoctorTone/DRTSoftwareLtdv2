@@ -5,7 +5,10 @@ body {
 a {
     color: white;
 }
-.active a {
+.navbar-nav .nav-item.active .nav-link {
+    color: orange;
+}
+.navbar-nav .nav-item a.nav-link:hover {
     color: orange;
 }
 a:hover {
