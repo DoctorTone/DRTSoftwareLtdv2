@@ -72,6 +72,9 @@ ul.blankStyle {
 i:hover {
     color: orange;
 }
+#create {
+    background-color: rgb(172, 94, 245);
+}
 @media (min-width: 1366px) {
     .ml-xxl-5 {
         margin-left: 4rem !important;
