@@ -72,6 +72,9 @@ ul.blankStyle {
 i:hover {
     color: orange;
 }
+.card-title:hover {
+    color: orange;
+}
 #create {
     background-color: rgb(172, 94, 245);
 }
