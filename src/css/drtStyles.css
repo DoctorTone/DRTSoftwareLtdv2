@@ -2,17 +2,24 @@ body {
     background-color: #343a40;
     color: white;
 }
-a {
-    color: white;
-}
 .navbar-nav .nav-item.active .nav-link {
     color: orange;
 }
 .navbar-nav .nav-item a.nav-link:hover {
     color: orange;
 }
-a:hover {
+.navbar-nav a {
+    color: white;
+}
+.navbar-nav a:hover {
     color: orange;
+}
+p a {
+    color: orange;
+}
+p a:hover {
+    color: orange;
+    text-decoration: none;
 }
 img.mainLogo {
     width: 20%;
