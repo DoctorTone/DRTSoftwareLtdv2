@@ -131,11 +131,11 @@ header .overlay {
     z-index: 1;
 }
 .modal {
-    width: 40%;
-    left: 60%;
+    width: 33.33%;
+    left: 66.66%;
 }
 .modal-dialog {
-    max-width: 400px;
+    max-width: 300px;
 }
 .modal.fade:not(.show).right .modal-dialog {
     -webkit-transform: translate3d(25%, 0, 0);
