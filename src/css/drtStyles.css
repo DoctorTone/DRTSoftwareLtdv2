@@ -130,6 +130,17 @@ header .overlay {
     opacity: 0.25;
     z-index: 1;
 }
+.modal {
+    width: 40%;
+    left: 60%;
+}
+.modal-dialog {
+    max-width: 400px;
+}
+.modal.fade:not(.show).right .modal-dialog {
+    -webkit-transform: translate3d(25%, 0, 0);
+    transform: translate3d(25%, 0, 0);
+}
 @media (min-width: 1366px) {
     .ml-xxl-5 {
         margin-left: 4rem !important;
