@@ -22,6 +22,20 @@ body {
 .navbar-nav a:hover {
     color: orange;
 }
+a {
+    color: white;
+}
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
+.card-body a {
+    color: blue;
+}
+.card-body a:hover {
+    color: blue;
+    text-decoration: none;
+}
 p a {
     color: orange;
 }
