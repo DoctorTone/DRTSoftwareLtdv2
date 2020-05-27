@@ -22,6 +22,9 @@ body {
 .navbar-nav a:hover {
     color: orange;
 }
+.overlay {
+    position: absolute;
+}
 a {
     color: white;
 }
@@ -157,6 +160,16 @@ header .overlay {
 .modal.fade:not(.show).right .modal-dialog {
     -webkit-transform: translate3d(25%, 0, 0);
     transform: translate3d(25%, 0, 0);
+}
+#newsLeft,
+#newsRight {
+    top: 45%;
+}
+#newsLeft {
+    left: 2%;
+}
+#newsRight {
+    right: 2%;
 }
 @media (min-width: 1366px) {
     .ml-xxl-5 {

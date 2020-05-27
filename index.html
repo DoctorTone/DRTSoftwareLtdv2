@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" href="./src/css/all.css">
         <link rel="stylesheet" href="./src/css/drtStyles.css">
+        <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+
     </head>
     <body>
       <!-- CTA -->
@@ -266,7 +268,7 @@
             </div>
           </div>
           <div class="text-center mt-5">
-            <button type="button" class="btn btn-primary btn-lg rounded-pill">See more</button>
+            <a href="./portfolio.html"><button type="button" class="btn btn-primary btn-lg rounded-pill">See more</button></a>
           </div>
         </div>
 
@@ -275,76 +277,25 @@
           <p>A selection of the latest news from DRT</p>
         </div>
 
-        <!-- Maybe place news items in carousel later
-        <div id="carouselExampleSlidesOnly" class="container carousel slide text-dark mb-5 pb-5" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="row">
-                <div class="carousel-item active col-4">
-                      <div class="card">
-                        <div class="card-body">
-                          <h6 class="card-subtitle mb-2 text-muted">Demo</h6>
-                          <h5 class="card-title">Feeling Sleepy?</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="card-link">More</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="carousel-item col-4">
-                  <div class="card">
-                    <div class="card-body">
-                      <h6 class="card-subtitle mb-2 text-muted">Project</h6>
-                      <h5 class="card-title">Mental Health Trials</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link">More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item col-4">
-                  <div class="card">
-                    <div class="card-body">
-                      <h6 class="card-subtitle mb-2 text-muted">Showcase</h6>
-                      <h5 class="card-title">DRT at CHI</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link">More</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <!-- News carousel -->
+        <div class="container">
+          <div id="newsCarousel" class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <img class="w-100" src="./images/brain.jpg" alt="">
+                </li>
+                <li class="glide__slide">
+                  <img class="w-100" src="./images/FTSEViz.jpg" alt="">
+                </li>
+                <li class="glide__slide">
+                  <img class="w-100" src="./images/dataSetViz.jpg" alt="">
+                </li>
+              </ul>
             </div>
-        </div> -->
-
-        <!-- News -->
-        <div class="container text-dark mb-5 pb-5">
-          <div class="row">
-            <div class="col-4">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h6 class="card-subtitle mb-2 text-muted">Demos</h6>
-                  <h5 class="card-title">Updated Demos</h5>
-                  <p class="card-text">Check out the latest demos, they have been updated.</p>
-                  <a href="#" class="card-link">More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h6 class="card-subtitle mb-2 text-muted">Project</h6>
-                  <h5 class="card-title">Mental Health Trials</h5>
-                  <p class="card-text">DRT has been working with Nottingham University in developing a mental health application.</p>
-                  <a href="#" class="card-link">More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h6 class="card-subtitle mb-2 text-muted">Blog</h6>
-                  <h5 class="card-title">Latest blog entries</h5>
-                  <p class="card-text">We've been updating the blog lately, check it out.</p>
-                  <a href="#" class="card-link">More</a>
-                </div>
-              </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button id="newsLeft" class="overlay glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+              <button id="newsRight" class="overlay glide__arrow glide__arrow--right" data-glide-dir=">">></button>
             </div>
           </div>
         </div>
