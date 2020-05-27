@@ -166,10 +166,16 @@ header .overlay {
     top: 45%;
 }
 #newsLeft {
-    left: 2%;
+    left: -4%;
 }
 #newsRight {
-    right: 2%;
+    right: -4%;
+}
+.card-body {
+    color: black;
+}
+.glide__arrows {
+    color: orange;
 }
 @media (min-width: 1366px) {
     .ml-xxl-5 {
