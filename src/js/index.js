@@ -7,7 +7,12 @@ const CTA_TIMEOUT = 10 * 1000;
 $(document).ready( () => {
     const glide = new Glide("#newsCarousel", {
         type: "carousel",
-        perView: 3
+        perView: 3,
+        breakpoints: {
+            768: {
+                perView: 1
+            }
+        }
     });
 
     glide.mount();
