@@ -46,9 +46,6 @@ p a:hover {
     color: orange;
     text-decoration: none;
 }
-img.mainLogo {
-    width: 20%;
-}
 .videoMedia video{
     width: 100%;
 }
