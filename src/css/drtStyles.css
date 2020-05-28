@@ -163,13 +163,13 @@ header .overlay {
 }
 #newsLeft,
 #newsRight {
-    top: 45%;
+    top: 70%;
 }
 #newsLeft {
-    left: -4%;
+    left: 3%;
 }
 #newsRight {
-    right: -4%;
+    right: 3%;
 }
 .card-body {
     color: black;
