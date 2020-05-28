@@ -12,7 +12,8 @@ $(document).ready( () => {
             768: {
                 perView: 1
             }
-        }
+        },
+        autoplay: 4000
     });
 
     glide.mount();
