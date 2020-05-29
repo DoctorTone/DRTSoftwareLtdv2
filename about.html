@@ -10,63 +10,72 @@
         <link rel="stylesheet" href="./src/css/drtStyles.css">
     </head>
     <body>
+        <!-- Logo -->
         <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <img class="mainLogo" src="images/drtLogoOrangeRect.png" alt="DRT Software Ltd">
-                </div>
+          <div class="row">
+            <div class="col-3 col-sm-4">
+
             </div>
-        </div>
-        <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="col-6 col-sm-4">
+                <img class="w-100" src="images/drtLogoOrangeRect.png" alt="DRT Software Ltd">
+            </div>
+            <div class="col-3 col-sm-4">
+
+            </div>
+          </div>
+      </div>
+      <!-- End logo -->
+        <!-- Navigation bar -->
+        <div class="container-fluid px-0">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNavigation" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="topNavigation">
               <ul class="navbar-nav">
-                <li class="nav-item ml-5 pl-5">
-                  <a class="nav-link" href="#"><i class="fas fa-phone-alt"></i> 0115 8840440 <span class="sr-only">(current)</span></a>
+                <li class="nav-item ml-xl-5 mr-2">
+                  <a class="nav-link px-0" href="tel:01158840440"><i class="fas fa-phone-alt"></i> 0115 8840440 <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item mr-5 pr-5">
-                  <a class="nav-link" href="#"><i class="far fa-envelope"></i> enquiries@drt-software.com</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="mailto:enquiries@drt-software.com?subject=Project enquiry"><i class="far fa-envelope"></i> enquiries@drt-software.com</a>
                 </li>
-                <li class="nav-item ml-5">
-                  <a class="nav-link" href="./index.html">Home</a>
+                <li class="nav-item ml-xxl-6">
+                  <a class="nav-link ml-lg-3 ml-xxl-5" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item dropdownContainer">
+                  <a class="nav-link" href="./dataVisualisation.html">Services</a>
+                  <div class="dropdownContent">
+                    <a href="./dataVisualisation.html">Data Visualisation</a>
+                    <a href="./virtualReality.html">Virtual Reality</a>
+                    <a href="./augmentedReality.html">Augmented Reality</a>
+                  </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
+                  <a class="nav-link" href="./portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link" href="https://www.drt-software.com/drtBlog/">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
+                  <a class="nav-link" href="./faq.html">FAQ</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">FAQ</a>
-                </li>
-                <li class="nav-item mr-5 pr-5">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item ml-5 pl-5">
-                  <a class="nav-link" href="#"><i class="fab fa-facebook fa-2x"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fab fa-twitter fa-2x"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fab fa-instagram fa-2x"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fab fa-pinterest fa-2x"></i></a>
+                <li class="nav-item mr-xl-5 pr-xl-5">
+                  <a class="nav-link" href="./contact.html">Contact</a>
                 </li>
               </ul>
+              <div class="ml-lg-4 ml-xxl-6">
+                <a class="mr-2 ml-xxl-5" href="https://www.facebook.com/DRTSoftware"><i class="fab fa-facebook fa-lg"></i></a>
+                <a class="mr-2" href="https://twitter.com/DrtSoftware"><i class="fab fa-twitter fa-lg"></i></a>
+                <a class="mr-2" href="https://www.instagram.com/drtsoftware"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="https://www.pinterest.co.uk/doctortone6663548/pins"><i class="fab fa-pinterest fa-lg"></i></a>
+              </div>
             </div>
           </nav>
         </div>
+        <!-- End navigation bar -->
         
         <div id="create" class="container text-center my-5 py-5 rounded-lg">
           <h1>We create highly interactive 3D experiences.</h1>
