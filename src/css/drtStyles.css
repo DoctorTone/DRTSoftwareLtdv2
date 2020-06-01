@@ -31,6 +31,12 @@ body {
     line-height: 1.2;
     font-size: 2rem;
 }
+#cta {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.5rem;
+}
 #create {
     width: 85%;
 }
@@ -197,6 +203,9 @@ header .overlay {
     }
     #mainLogo {
         width: 20%;
+    }
+    #cta {
+        font-size: 2rem;
     }
 }
 @media (min-width: 1366px) {
