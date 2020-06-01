@@ -31,6 +31,9 @@ body {
     line-height: 1.2;
     font-size: 2rem;
 }
+#create {
+    width: 85%;
+}
 a {
     color: white;
 }
