@@ -183,6 +183,11 @@ header .overlay {
 .glide__arrows {
     color: orange;
 }
+@media (min-width: 576px) and (orientation: landscape) {
+    #mainLogo {
+        width: 30%;
+    }
+}
 @media (min-width: 768px) {
     .banner-title {
         font-size: 2.5rem;
