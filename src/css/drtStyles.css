@@ -18,6 +18,9 @@ body {
 .bg-purple {
     background-color: #b32230;
 }
+.bg-darkish {
+    background-color: darkslategrey;
+}
 .w-33 {
     width: 33.33% !important;
   }
