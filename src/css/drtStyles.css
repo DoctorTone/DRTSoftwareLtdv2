@@ -15,6 +15,9 @@ body {
 .bg-grey {
     background-color: rgba(255, 255, 255, 0.5);
 }
+.bg-purple {
+    background-color: #b32230;
+}
 .w-33 {
     width: 33.33% !important;
   }
