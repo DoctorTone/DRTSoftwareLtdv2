@@ -16,10 +16,10 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
 }
 .bg-purple {
-    background-color: #b32230;
+    background-color: rgba(179, 34, 48, 1);
 }
-.bg-darkish {
-    background-color: #37bf30;
+.bg-contact {
+    background-color: rgba(55, 191, 48, 0.75);
 }
 .bg-faq {
     background-color: #fcba03;
@@ -140,7 +140,7 @@ i:hover {
     color: orange;
 }
 .bg-light-purple {
-    background-color: rgb(172, 94, 245);
+    background-color: rgba(172, 94, 245);
 }
 .custom-container {
     margin-left: auto;
