@@ -21,6 +21,9 @@ body {
 .bg-darkish {
     background-color: darkslategrey;
 }
+.bg-faq {
+    background-color: #fcba03;
+}
 .w-33 {
     width: 33.33% !important;
   }
