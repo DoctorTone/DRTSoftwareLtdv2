@@ -88,7 +88,7 @@
             <div class="form-group form-row">
               <label for="contactName" class="col-1 col-form-label">Name</label>
               <div class="col-5 mb-3">
-                <input type="text" class="form-control" placeholder="Your Name" id="contactName">
+                <input type="text" class="form-control" placeholder="Your Name" id="contactName" required>
               </div>
             
               <label for="contactCompany" class="col-1 col-form-label">Company</label>
@@ -98,7 +98,7 @@
             
               <label for="contactEmail" class="col-1 col-form-label">Email</label>
               <div class="col-5">
-                <input type="email" class="form-control" placeholder="name@company.com" id="contactEmail">
+                <input type="email" class="form-control" placeholder="name@company.com" id="contactEmail" required>
               </div>
             
               <label for="contactPhone" class="col-1 col-form-label">Phone</label>
@@ -109,8 +109,8 @@
             <div class="form-group form-row">
               <label for="service" class="col-2 col-form-label">Which service are you interested in?</label>
               <div class="col-10">
-                <select class="custom-select" name="" id="service">
-                  <option selected>Please choose an option</option>
+                <select class="custom-select" name="" id="service" required>
+                  <option value=0 selected>Please choose an option</option>
                   <option value=1>Data Visualisation</option>
                   <option value=2>Virtual Reality</option>
                   <option value=3>Augmented Reality</option>
@@ -122,7 +122,7 @@
             <div class="form-group form-row">
               <label for="help" class="col-2 col-form-label">How can we help?</label>
               <div class="col-10">
-                <textarea class="form-control" name="" id="help" cols="30" rows="3"></textarea>
+                <textarea class="form-control" name="" id="help" cols="30" rows="3" required></textarea>
               </div>
             </div>
             <button class="btn btn-primary">Submit</button>
@@ -184,5 +184,10 @@
         </div>
       </footer>
       <!-- End footer -->
+
+      <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="./src/js/contact.js"></script>
+
     </body>
 </html>
