@@ -3,6 +3,7 @@ import Glide from "@glidejs/glide";
 
 const CTA_TIMEOUT = 10 * 1000;
 const MAX_MOBILE_VIDEO_WIDTH = 768;
+const NEWS_SLIDER_TIME = 3000;
 let playingMobile = false;
 
 $(document).ready( () => {
@@ -14,7 +15,7 @@ $(document).ready( () => {
                 perView: 1
             }
         },
-        autoplay: 4000
+        autoplay: NEWS_SLIDER_TIME
     });
 
     glide.mount();
