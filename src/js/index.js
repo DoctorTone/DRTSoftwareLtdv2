@@ -11,8 +11,11 @@ $(document).ready( () => {
         type: "carousel",
         perView: 3,
         breakpoints: {
-            768: {
+            576: {
                 perView: 1
+            },
+            800: {
+                perView: 2
             }
         },
         autoplay: NEWS_SLIDER_TIME
