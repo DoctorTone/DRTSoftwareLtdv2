@@ -199,8 +199,8 @@ header .overlay {
 .glide__arrows {
     color: orange;
 }
-ul {
-    height: 30vh;
+.glide__slides {
+    height: auto;
 }
 .card {
     height: 100%;
@@ -208,6 +208,9 @@ ul {
 @media (min-width: 576px) and (orientation: landscape) {
     #mainLogo {
         width: 30%;
+    }
+    .glide__slides {
+        height: 75vh;
     }
 }
 @media (min-width: 768px) {
@@ -220,6 +223,24 @@ ul {
     #cta {
         font-size: 2rem;
     }
+    .glide__slides {
+        height: 25vh;
+    }
+}
+@media (min-width: 768px) and (orientation: landscape) {
+    .glide__slides {
+        height: 60vh;
+    }
+}
+@media (min-width: 992px) {
+    .glide__slides {
+        height: 35vh;
+    }
+}
+@media (min-width: 1200px) {
+    .glide__slides {
+        height: 30vh;
+    }
 }
 @media (min-width: 1366px) {
     .ml-xxl-5 {
@@ -229,6 +250,9 @@ ul {
 @media (min-width: 1600px) {
     .ml-xxl-6 {
         margin-left: 12rem !important;
+    }
+    .glide__slides {
+        height: 25vh;
     }
 }
 @media (min-width: 1800px) {
