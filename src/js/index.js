@@ -14,7 +14,7 @@ $(document).ready( () => {
             576: {
                 perView: 1
             },
-            800: {
+            992: {
                 perView: 2
             }
         },

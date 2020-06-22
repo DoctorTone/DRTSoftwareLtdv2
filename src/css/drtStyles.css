@@ -193,21 +193,17 @@ header .overlay {
     -webkit-transform: translate3d(25%, 0, 0);
     transform: translate3d(25%, 0, 0);
 }
-#newsLeft,
-#newsRight {
-    top: 40%;
-}
-#newsLeft {
-    left: 0%;
-}
-#newsRight {
-    right: -8%;
-}
 .card-body {
     color: black;
 }
 .glide__arrows {
     color: orange;
+}
+ul {
+    height: 30vh;
+}
+.card {
+    height: 100%;
 }
 @media (min-width: 576px) and (orientation: landscape) {
     #mainLogo {
