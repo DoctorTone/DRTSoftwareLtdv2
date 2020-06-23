@@ -226,6 +226,9 @@ header .overlay {
     .glide__slides {
         height: 25vh;
     }
+    .container.narrow-lg {
+        width: 75%;
+    }
 }
 @media (min-width: 768px) and (orientation: landscape) {
     .glide__slides {
@@ -240,6 +243,9 @@ header .overlay {
 @media (min-width: 1200px) {
     .glide__slides {
         height: 30vh;
+    }
+    .container.narrow-lg {
+        width: 50%;
     }
 }
 @media (min-width: 1366px) {
