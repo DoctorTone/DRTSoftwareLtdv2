@@ -1,5 +1,11 @@
 import $ from "jquery";
 import Glide from "@glidejs/glide";
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.css'; // Import precompiled Bootstrap css
+import '@fortawesome/fontawesome-free/css/all.css';
+
+import "../css/drtStyles.css";
+import '../../node_modules/@glidejs/glide/dist/css/glide.core.min.css';
 
 const CTA_TIMEOUT = 10 * 1000;
 const MAX_MOBILE_VIDEO_WIDTH = 768;
