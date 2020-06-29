@@ -31,6 +31,10 @@ body {
 .w-33 {
     width: 33.33% !important;
   }
+/* Navigation bar */
+.navbar-padding {
+    padding-left: 35%;
+}
 .navbar-nav .nav-item.active .nav-link {
     color: orange;
 }
