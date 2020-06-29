@@ -95,6 +95,11 @@ body {
 .w-85 {
     width: 85%;
 }
+.btn-grey {
+    color: #fff;
+    background-color: rgb(146, 146, 146);
+    border-color: rgba(155, 155, 155, 1);
+}
 .videoMedia video{
     width: 100%;
 }
@@ -176,6 +181,11 @@ a:hover {
     color: orange;
 }
 footer a {
+    color: white;
+}
+.fa-facebook,
+.fa-twitter,
+.fa-instagram {
     color: white;
 }
 i:hover {
