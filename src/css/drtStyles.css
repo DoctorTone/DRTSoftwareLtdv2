@@ -134,6 +134,14 @@ a:hover {
 .card-link:hover {
     color: orange;
 }
+/* Links in footer */
+.footer-information a {
+    color: white;
+}
+.footer-information a:hover {
+    color: orange;
+}
+
 i:hover {
     color: orange;
 }
