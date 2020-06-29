@@ -311,18 +311,30 @@ header .overlay {
     .container.narrow-lg {
         width: 50%;
     }
+    .navbar-padding {
+        margin-left: 25%;
+    }
 }
 @media (min-width: 1366px) {
-    .ml-xxl-5 {
-        margin-left: 4rem !important;
+    .navbar-padding {
+        margin-left: 27.5%;
     }
 }
 @media (min-width: 1600px) {
-    .ml-xxl-6 {
-        margin-left: 12rem !important;
+    .navbar-padding {
+        margin-left: 32%;
     }
     .glide__slides {
         height: 25vh;
+    }
+    .mr-xxl-13 {
+        margin-right: 13rem !important;
+    }
+    .mr-xxl-14 {
+        margin-right: 14rem !important;
+    }
+    .mr-xxl-15 {
+        margin-right: 15rem !important;
     }
 }
 @media (min-width: 1800px) {
