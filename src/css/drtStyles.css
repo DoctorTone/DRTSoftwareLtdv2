@@ -33,7 +33,7 @@ body {
   }
 /* Navigation bar */
 .navbar-padding {
-    padding-left: 35%;
+    padding-left: 3%;
 }
 .navbar-nav .nav-item.active .nav-link {
     color: orange;
