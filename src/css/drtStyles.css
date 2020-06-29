@@ -300,6 +300,9 @@ header .overlay {
     .glide__slides {
         height: 35vh;
     }
+    .navbar-padding {
+        margin-left: 17.5%;
+    }
 }
 @media (min-width: 1200px) {
     .glide__slides {
