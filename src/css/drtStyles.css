@@ -18,6 +18,10 @@ body {
 .bg-purple {
     background-color: rgba(179, 34, 48, 1);
 }
+/* Orange = 231, 136, 43 */
+.bg-orange {
+    background-color: rgb(231, 136, 19);
+}
 .bg-contact {
     background-color: rgba(55, 191, 48, 0.75);
 }
@@ -56,27 +60,6 @@ body {
 }
 .w-85 {
     width: 85%;
-}
-a {
-    color: white;
-}
-a:hover {
-    color: orange;
-    text-decoration: none;
-}
-.card-body a {
-    color: blue;
-}
-.card-body a:hover {
-    color: blue;
-    text-decoration: none;
-}
-p a {
-    color: orange;
-}
-p a:hover {
-    color: orange;
-    text-decoration: none;
 }
 .videoMedia video{
     width: 100%;
@@ -132,6 +115,24 @@ ul.blankStyle {
 }
 .dropdownContainer:hover .dropdownContent {
     display: block;
+}
+/* Links */
+a {
+    color: orange;
+}
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
+/* Links in cards */
+.card a {
+    color: black;
+}
+.card-link {
+    color: blue;
+}
+.card-link:hover {
+    color: orange;
 }
 i:hover {
     color: orange;
