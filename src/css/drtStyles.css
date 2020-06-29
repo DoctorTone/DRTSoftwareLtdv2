@@ -115,6 +115,11 @@ body {
     background-color: rgb(146, 146, 146);
     border-color: rgba(155, 155, 155, 1);
 }
+.btn-orange {
+    color: #fff;
+    background-color: rgb(231, 136, 19);
+    border-color: rgb(231, 136, 19);
+}
 .videoMedia video{
     width: 100%;
 }
