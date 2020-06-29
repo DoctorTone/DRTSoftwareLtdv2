@@ -77,6 +77,21 @@ body {
 .mr-15 {
     margin-right: 15rem !important;
 }
+.mr-16 {
+    margin-right: 16rem !important;
+}
+.mr-17 {
+    margin-right: 17rem !important;
+}
+.mr-18 {
+    margin-right: 18rem !important;
+}
+.mr-19 {
+    margin-right: 19rem !important;
+}
+.mr-20 {
+    margin-right: 20rem !important;
+}
 .overlay {
     position: absolute;
 }
@@ -338,7 +353,13 @@ header .overlay {
     }
 }
 @media (min-width: 1800px) {
-    .ml-xxl-6 {
-        margin-left: 18rem !important;
+    .navbar-padding {
+        margin-left: 33.5%;
+    }
+    .mr-hd-15 {
+        margin-right: 15rem !important;
+    }
+    .mr-hd-20 {
+        margin-right: 20rem !important;
     }
 }
