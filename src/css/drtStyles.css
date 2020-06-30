@@ -278,6 +278,9 @@ header .overlay {
     .contact-padding {
         margin-left: 1rem;
     }
+    .contact-padding-container {
+        margin-left: 1.5rem;
+    }
 }
 @media (min-width: 1200px) {
     .glide__slides {
@@ -291,6 +294,9 @@ header .overlay {
     }
     .contact-padding {
         margin-left: 7rem;
+    }
+    .contact-padding-container {
+        margin-left: 6.25rem;
     }
 }
 @media (min-width: 1366px) {
@@ -318,5 +324,8 @@ header .overlay {
     }
     .contact-padding {
         margin-left: 24.2rem;
+    }
+    .contact-padding-container {
+        margin-left: 6rem;
     }
 }
