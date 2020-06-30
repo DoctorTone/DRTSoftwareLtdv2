@@ -239,6 +239,9 @@ header .overlay {
     #mainLogo {
         width: 30%;
     }
+    .img-fluid-logo {
+        width: 75%;
+    }
     .glide__slides {
         height: 75vh;
     }
@@ -271,6 +274,9 @@ header .overlay {
 @media (min-width: 992px) {
     .glide__slides {
         height: 35vh;
+    }
+    .img-fluid-logo {
+        width: 40%;
     }
     .navleft-padding {
         margin-left: 20%;
