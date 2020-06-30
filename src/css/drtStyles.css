@@ -32,9 +32,6 @@ body {
     width: 33.33% !important;
   }
 /* Navigation bar */
-.navbar-padding {
-    padding-left: 3%;
-}
 .navbar-nav .nav-item.active .nav-link {
     color: orange;
 }
@@ -49,48 +46,6 @@ body {
 }
 .project-padding {
     margin-right: 10%;
-}
-.mr-7 {
-    margin-right: 7rem !important;
-}
-.mr-8 {
-    margin-right: 8rem !important;
-}
-.mr-9 {
-    margin-right: 9rem !important;
-}
-.mr-10 {
-    margin-right: 10rem !important;
-}
-.mr-11 {
-    margin-right: 11rem !important;
-}
-.mr-12 {
-    margin-right: 12rem !important;
-}
-.mr-13 {
-    margin-right: 13rem !important;
-}
-.mr-14 {
-    margin-right: 14rem !important;
-}
-.mr-15 {
-    margin-right: 15rem !important;
-}
-.mr-16 {
-    margin-right: 16rem !important;
-}
-.mr-17 {
-    margin-right: 17rem !important;
-}
-.mr-18 {
-    margin-right: 18rem !important;
-}
-.mr-19 {
-    margin-right: 19rem !important;
-}
-.mr-20 {
-    margin-right: 20rem !important;
 }
 .overlay {
     position: absolute;
@@ -145,9 +100,6 @@ ul.blankStyle {
 }
 #mainLogo {
     width: 50%;
-}
-.dropLink {
-
 }
 .dropdownContainer {
     position: relative;
@@ -320,8 +272,11 @@ header .overlay {
     .glide__slides {
         height: 35vh;
     }
-    .navbar-padding {
-        margin-left: 17.5%;
+    .navleft-padding {
+        margin-left: 20%;
+    }
+    .contact-padding {
+        margin-left: 1rem;
     }
 }
 @media (min-width: 1200px) {
@@ -331,40 +286,37 @@ header .overlay {
     .container.narrow-lg {
         width: 50%;
     }
-    .navbar-padding {
-        margin-left: 25%;
+    .navleft-padding {
+        margin-left: 27%;
+    }
+    .contact-padding {
+        margin-left: 7rem;
     }
 }
 @media (min-width: 1366px) {
-    .navbar-padding {
-        margin-left: 27.5%;
+    .navleft-padding {
+        margin-left: 29%;
+    }
+    .contact-padding {
+        margin-left: 9.5rem;
     }
 }
 @media (min-width: 1600px) {
-    .navbar-padding {
-        margin-left: 31%;
-    }
     .glide__slides {
         height: 25vh;
     }
-    .mr-xxl-13 {
-        margin-right: 13rem !important;
+    .navleft-padding {
+        margin-left: 33%;
     }
-    .mr-xxl-14 {
-        margin-right: 14rem !important;
-    }
-    .mr-xxl-15 {
-        margin-right: 15rem !important;
+    .contact-padding {
+        margin-left: 18.5rem;
     }
 }
 @media (min-width: 1800px) {
-    .navbar-padding {
-        margin-left: 33%;
+    .navleft-padding {
+        margin-left: 35.5%;
     }
-    .mr-hd-15 {
-        margin-right: 15rem !important;
-    }
-    .mr-hd-20 {
-        margin-right: 20rem !important;
+    .contact-padding {
+        margin-left: 24.2rem;
     }
 }
