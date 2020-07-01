@@ -235,6 +235,9 @@ header .overlay {
 .card {
     height: 100%;
 }
+.mouseOver {
+    cursor: pointer;
+}
 @media (min-width: 576px) and (orientation: landscape) {
     #mainLogo {
         width: 30%;
