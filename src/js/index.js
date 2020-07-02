@@ -35,8 +35,8 @@ $(document).ready( () => {
 
 function playShowReel(forcePlay) {
     const videoElem = document.getElementById("showReel");
-    const videoMobile = "./showReelMobile.mp4";
-    const videoDesktop = "./showReel2.mp4";
+    const videoMobile = "./showReelMobile3.mp4";
+    const videoDesktop = "./showReel3.mp4";
     if (window.innerWidth < MAX_MOBILE_VIDEO_WIDTH) {
         if (!playingMobile) {
             videoElem.src = videoMobile;
