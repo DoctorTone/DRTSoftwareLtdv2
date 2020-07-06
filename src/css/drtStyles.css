@@ -111,7 +111,7 @@ ul.blankStyle {
     text-align: center;
 }
 #mainLogo {
-    width: 100%;
+    width: 90%;
 }
 .dropdownContainer {
     position: relative;
@@ -255,14 +255,14 @@ header .overlay {
     cursor: pointer;
 }
 @media (min-width: 576px) and (orientation: landscape) {
-    #mainLogo {
-        width: 30%;
-    }
     .img-fluid-logo {
         width: 75%;
     }
     .glide__slides {
         height: 75vh;
+    }
+    #mainLogo {
+        width: 40%;
     }
 }
 @media (min-width: 768px) {
@@ -273,7 +273,7 @@ header .overlay {
         font-size: 2.5rem;
     }
     #mainLogo {
-        width: 60%;
+        width: 40%;
     }
     #cta {
         font-size: 2rem;
@@ -288,6 +288,9 @@ header .overlay {
 @media (min-width: 768px) and (orientation: landscape) {
     .glide__slides {
         height: 60vh;
+    }
+    #mainLogo {
+        width: 30%;
     }
 }
 @media (min-width: 992px) {
@@ -309,6 +312,10 @@ header .overlay {
     .highlightBtn {
         background-color: orange;
         width: 110%;
+    }
+    #mainLogo {
+        width: 50%;
+    }
 }
 @media (min-width: 1200px) {
     .glide__slides {
@@ -344,6 +351,10 @@ header .overlay {
     }
     .contact-padding {
         margin-left: 18.5rem;
+    }
+    .px-6 {
+        padding-left: 6rem !important;
+        padding-right: 6rem !important;
     }
 }
 @media (min-width: 1800px) {
