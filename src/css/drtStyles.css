@@ -270,6 +270,9 @@ header .overlay {
     #mainLogo {
         width: 40%;
     }
+    .blankStyle a {
+        width: 60%;
+    }
 }
 @media (min-width: 768px) {
     .img-fluid-logo {
@@ -289,6 +292,9 @@ header .overlay {
     }
     .container.narrow-lg {
         width: 75%;
+    }
+    .blankStyle a {
+        width: 50%;
     }
 }
 @media (min-width: 768px) and (orientation: landscape) {
@@ -323,6 +329,12 @@ header .overlay {
     #mainLogo {
         width: 50%;
     }
+    .blankStyle a {
+        width: 50%;
+    }
+    .service-article {
+        width: 75%;
+    }
 }
 @media (min-width: 1200px) {
     .glide__slides {
@@ -346,6 +358,12 @@ header .overlay {
     .px-6 {
         padding-left: 5.15rem !important;
         padding-right: 5.15rem !important;
+    }
+    .blankStyle a {
+        width: 35%;
+    }
+    .service-article {
+        width: 60%;
     }
 }
 @media (min-width: 1366px) {
@@ -380,5 +398,8 @@ header .overlay {
     .px-7 {
         padding-left: 6rem !important;
         padding-right: 6rem !important;
+    }
+    .service-article {
+        width: 55%;
     }
 }
