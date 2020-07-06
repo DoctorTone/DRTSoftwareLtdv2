@@ -111,7 +111,7 @@ ul.blankStyle {
     text-align: center;
 }
 #mainLogo {
-    width: 50%;
+    width: 40%;
 }
 .dropdownContainer {
     position: relative;
@@ -273,7 +273,7 @@ header .overlay {
         font-size: 2.5rem;
     }
     #mainLogo {
-        width: 40%;
+        width: 60%;
     }
     #cta {
         font-size: 2rem;
