@@ -327,11 +327,18 @@ header .overlay {
     .navleft-padding {
         margin-left: 27%;
     }
+    #mainLogo {
+        width: 40%;
+    }
     .contact-padding {
         margin-left: 7rem;
     }
     .contact-padding-container {
         margin-left: 6.25rem;
+    }
+    .px-6 {
+        padding-left: 5.15rem !important;
+        padding-right: 5.15rem !important;
     }
 }
 @media (min-width: 1366px) {
@@ -352,10 +359,6 @@ header .overlay {
     .contact-padding {
         margin-left: 18.5rem;
     }
-    .px-6 {
-        padding-left: 6rem !important;
-        padding-right: 6rem !important;
-    }
 }
 @media (min-width: 1800px) {
     .navleft-padding {
@@ -366,5 +369,9 @@ header .overlay {
     }
     .contact-padding-container {
         margin-left: 6rem;
+    }
+    .px-7 {
+        padding-left: 6rem !important;
+        padding-right: 6rem !important;
     }
 }
