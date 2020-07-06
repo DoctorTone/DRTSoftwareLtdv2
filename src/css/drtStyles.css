@@ -93,7 +93,7 @@ ul.blankStyle {
     padding: 0;
 }
 .blankStyle a {
-    width: 20%;
+    width: 80%;
 }
 .img-overlay:hover img {
     opacity: 0.3;
@@ -115,6 +115,9 @@ ul.blankStyle {
 }
 .logo {
     width: 40%;
+}
+.service-article {
+    width: 100%;
 }
 .dropdownContainer {
     position: relative;
