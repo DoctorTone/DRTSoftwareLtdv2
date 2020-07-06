@@ -34,6 +34,9 @@ body {
 .w-33 {
     width: 33.33% !important;
   }
+  .link-grey {
+      color: rgba(255, 255, 255, 0.5);
+  }
 /* Navigation bar */
 .navbar-nav .nav-item.active .nav-link {
     color: orange;
@@ -270,7 +273,7 @@ header .overlay {
         font-size: 2.5rem;
     }
     #mainLogo {
-        width: 20%;
+        width: 40%;
     }
     #cta {
         font-size: 2rem;
