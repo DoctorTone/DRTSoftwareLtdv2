@@ -28,6 +28,9 @@ body {
 .bg-faq {
     background-color: #fcba03;
 }
+.w-60 {
+    width: 60% !important;
+}
 .w-33 {
     width: 33.33% !important;
   }
@@ -46,6 +49,9 @@ body {
 }
 .project-padding {
     margin-right: 10%;
+}
+.highlightBtn {
+    width: 45%;
 }
 .overlay {
     position: absolute;
@@ -82,6 +88,9 @@ ul.blankStyle {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+.blankStyle a {
+    width: 20%;
 }
 .img-overlay:hover img {
     opacity: 0.3;
@@ -289,11 +298,14 @@ header .overlay {
         margin-left: 20%;
     }
     .contact-padding {
-        margin-left: 1rem;
+        margin-left: 0.5rem;
     }
     .contact-padding-container {
         margin-left: 1.5rem;
     }
+    .highlightBtn {
+        background-color: orange;
+        width: 110%;
 }
 @media (min-width: 1200px) {
     .glide__slides {
@@ -336,7 +348,7 @@ header .overlay {
         margin-left: 35.5%;
     }
     .contact-padding {
-        margin-left: 24.2rem;
+        margin-left: 23.7rem;
     }
     .contact-padding-container {
         margin-left: 6rem;
