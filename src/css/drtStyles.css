@@ -113,6 +113,9 @@ ul.blankStyle {
 #mainLogo {
     width: 90%;
 }
+.logo {
+    width: 40%;
+}
 .dropdownContainer {
     position: relative;
     display: inline-block;
