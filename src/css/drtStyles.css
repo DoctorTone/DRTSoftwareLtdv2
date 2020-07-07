@@ -345,7 +345,7 @@ header .overlay {
         width: 50%;
     }
     .service-article {
-        width: 75%;
+        width: 80%;
     }
 }
 @media (min-width: 1200px) {
@@ -378,7 +378,7 @@ header .overlay {
         width: 35%;
     }
     .service-article {
-        width: 75%;
+        width: 80%;
     }
 }
 @media (min-width: 1366px) {
@@ -401,6 +401,9 @@ header .overlay {
     }
     .logo {
         width: 55%;
+    }
+    .service-article {
+        width: 65%;
     }
 }
 @media (min-width: 1800px) {
