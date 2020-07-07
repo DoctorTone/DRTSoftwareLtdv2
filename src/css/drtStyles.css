@@ -114,7 +114,7 @@ ul.blankStyle {
     width: 90%;
 }
 .logo {
-    width: 40%;
+    width: 70%;
 }
 .service-article {
     width: 100%;
@@ -270,6 +270,9 @@ header .overlay {
     #mainLogo {
         width: 40%;
     }
+    .logo {
+        width: 42.5%;
+    }
     .blankStyle a {
         width: 60%;
     }
@@ -296,6 +299,9 @@ header .overlay {
     .blankStyle a {
         width: 50%;
     }
+    .logo {
+        width: 40%;
+    }
 }
 @media (min-width: 768px) and (orientation: landscape) {
     .glide__slides {
@@ -303,6 +309,9 @@ header .overlay {
     }
     #mainLogo {
         width: 30%;
+    }
+    .logo {
+        width: 32%;
     }
 }
 @media (min-width: 992px) {
@@ -329,6 +338,9 @@ header .overlay {
     #mainLogo {
         width: 50%;
     }
+    .logo {
+        width: 48.5%;
+    }
     .blankStyle a {
         width: 50%;
     }
@@ -349,6 +361,9 @@ header .overlay {
     #mainLogo {
         width: 40%;
     }
+    .logo {
+        width: 40%;
+    }
     .contact-padding {
         margin-left: 7rem;
     }
@@ -363,7 +378,7 @@ header .overlay {
         width: 35%;
     }
     .service-article {
-        width: 60%;
+        width: 75%;
     }
 }
 @media (min-width: 1366px) {
@@ -384,6 +399,9 @@ header .overlay {
     .contact-padding {
         margin-left: 18.5rem;
     }
+    .logo {
+        width: 55%;
+    }
 }
 @media (min-width: 1800px) {
     .navleft-padding {
@@ -401,5 +419,8 @@ header .overlay {
     }
     .service-article {
         width: 55%;
+    }
+    .logo {
+        width: 62.5%;
     }
 }
