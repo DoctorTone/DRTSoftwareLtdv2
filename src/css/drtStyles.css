@@ -191,6 +191,10 @@ i:hover {
 .card-title:hover {
     color: orange;
 }
+a h4:hover {
+    color: orange;
+}
+/* End links */
 .bg-light-purple {
     background-color: rgba(172, 94, 245);
 }
