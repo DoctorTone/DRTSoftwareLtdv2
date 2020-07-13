@@ -1,4 +1,6 @@
 dist/**
+assets/**
 node_modules/**
+fa-*
 package-lock.json
 .cache
