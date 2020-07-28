@@ -15,7 +15,10 @@
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.13.1",
     "concat": "^1.0.3",
-    "parcel-bundler": "^1.12.4"
+    "eslint": "^7.5.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5",
+    "video.js": "^7.8.4"
   },
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
