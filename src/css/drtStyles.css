@@ -204,6 +204,10 @@ a h4:hover {
     height: 75vh;
     overflow: hidden;
 }
+.custom-container .container {
+    position: relative;
+    z-index: 2;
+}
 .custom-container video {
     position: absolute;
     display: block;
