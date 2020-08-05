@@ -262,6 +262,9 @@ header .overlay {
 .mouseOver {
     cursor: pointer;
 }
+img.img-video {
+    width: 10%;
+}
 @media (min-width: 576px) and (orientation: landscape) {
     .img-fluid-logo {
         width: 75%;
